@@ -1,17 +1,2 @@
-import './css/styles.css';
+//let url = `https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/${fromCurrency.value}`;
 
-//Buisness Logic
-
-function convertCurency()
-//getting userinput value 
-
-let amount 
-
-
-
-
-
-
-//UI Logic 
-let amount = parseFloat(document.getElementById('amount').value);
-let currency = document.getElementById('currency').value;

@@ -1,37 +1,39 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Currency Exchange</title>
-  <script type="text/javascript">
-
-
-  </script>
 </head>
 <body>
   <h1>Currency Exchanger</h1>
   <form>
-    <label for="amount">Amount in USD:</label>
-    <input type="number" id="amount" min="0" step="0.01" required>
+    <label for="amount-one">Amount in USD:</label>
+    <input type="number" id="amount-one" min="0" step="0.01" required>
     <br>
-    <label for="currency">Convert to:</label>
-    <select id="currency" required>
+    <label for="currency-one">Convert from:</label>
+    <select id="currency-one" required>
+      <option value="USD">US Dollar</option>
       <option value="KRW">South Korean won</option>
       <option value="JPY">Japanese yen</option>
-      <option value="KES">Kenyan Shiling</option>
-      <option value="AED">Emirati Dirham</option>
       <option value="EUR">Euro</option>
-
-    
+      <option value="KEN">Kenyan Shilings</option>
+      <option value="AED">Dirham</option>
     </select>
     <br>
-    <button type="button" onclick="convertCurrency()">Convert</button>
+    <label for="currency-two">Convert to:</label>
+    <select id="currency-two" required>
+      <option value="KRW">South Korean won</option>
+      <option value="JPY">Japanese yen</option>
+      <option value="EUR">Euro</option>
+      <option value="KEN">Kenyan Shilings</option>
+      <option value="AED">Dirham</option>
+    </select>
+    <br>
+    <button type="button" id="convert">Convert</button>
   </form>
+  <p id="rate"></p>
   <p id="result"></p>
+
+</script>
 </body>
 </html>
-
-
-
-
-
-
