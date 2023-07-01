@@ -2,7 +2,10 @@ import './css/styles.css';
 
 //Buisness Logic
 
+function convertCurency()
+//getting userinput value 
 
+let amount 
 
 
 
@@ -10,3 +13,5 @@ import './css/styles.css';
 
 
 //UI Logic 
+let amount = parseFloat(document.getElementById('amount').value);
+let currency = document.getElementById('currency').value;
