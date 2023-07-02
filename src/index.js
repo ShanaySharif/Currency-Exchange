@@ -27,3 +27,8 @@ function printElements(apiResponse, number, currencyToConvertTo) {
     "#showResponse"
   ).innerText = `$${number} in USD converted to ${currencyToConvertTo} is $${roundedConvertedNumber}`;
 }
+function printError(request, currencyToConvertTo) {
+  document.querySelector(
+    "#showResponse"
+  ).innerText = `There was an error accessing the currency data for ${currencyToConvertTo}:  ${request.status} ${request.statusText}`;
+}
