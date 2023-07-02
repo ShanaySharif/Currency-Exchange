@@ -17,6 +17,13 @@ function getConversion(number, currencyToConvertTo) {
   request.send();
 }
 
+function handleFormSubmission(event) {
+  event.preventDefault();
+  const number = Number(document.querySelector("#amountUSD").value);
+  const currencyToConvertTo = document.querySelector("#currency").value;
+  getConversion(number, currencyToConvertTo);
+}
+
 //UI Logic
 
 function printElements(apiResponse, number, currencyToConvertTo) {
@@ -32,3 +39,9 @@ function printError(request, currencyToConvertTo) {
     "#showResponse"
   ).innerText = `There was an error accessing the currency data for ${currencyToConvertTo}:  ${request.status} ${request.statusText}`;
 }
+// function handleFormSubmission(event) {
+//   event.preventDefault();
+//   const number = Number(document.querySelector("#amountUSD").value);
+//   const currencyToConvertTo = document.querySelector("#currency").value;
+//   getConversion(number, currencyToConvertTo);
+// }
