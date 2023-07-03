@@ -19,7 +19,7 @@ In this project, I created a currency exchange application that allows users to 
 
 
  ### Known Bugs
-No known bugs.
+- No known bugs.
 
 ### License
 MIT Copyright (c) 2023 Shankaron Mohamed
