@@ -8,10 +8,10 @@ By Shankaron Mohamed
 - Javascript
 
 ### Description
-This is a project that allows users to select from a variety of pizza toppings and sizes. After selecting the size and toppings, it returns a price.
+In this project, I created a currency exchange application that allows users to enter in a amount in USD an returns the currency selected (South korean won, Japanese Yen, Euro, Kenyan Shiling and Dirham). The application determine the most recent exchange rate by making an API call. 
 
-Setup/Installation Requirements
-open https://github.com/ShanaySharif/Object-Oriented-project in your browser!
+### Setup/Installation Requirements
+open https://github.com/ShanaySharif/Currency-Exchange in your browser!
 Go to repository
 Download zipfolder
 open up Visual Studio Code
@@ -20,5 +20,6 @@ Open folder with the repository that was downloaded in Visual Studio Code on the
 
  ### Known Bugs
 No known bugs.
-License
+
+### License
 MIT Copyright (c) 2023 Shankaron Mohamed
